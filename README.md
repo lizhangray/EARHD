@@ -26,13 +26,7 @@ This is a PTH file trained on the NHHAZE2020 dataset. Below is the download link
 You can download the NTIRE dataset from the following link:
 [[**NTIRE**](https://pan.baidu.com/s/1SUUBMcfKgqn1QZpKOrvNgA?pwd=851n )] 
 
-After downloading, modify the corresponding entry in the option.py file as follows:
 
-```bash
-# Modify the dataset name
-parser.add_argument("--dataset_name", type=str,
-                    default="2020NHHAZE_Split_Aug", help="name of the dataset")
-```
 ### Directory Structure
 Here is a simple diagram illustrating the directory structure:
 ```bash
@@ -53,7 +47,6 @@ project_root/
 
 # test
 python main.py
-# you can set the test datasets in the option.py too.
 ```
 
 
@@ -90,9 +83,19 @@ python main.py
 </div>
 
 
-## Citing 
+## Citation
 
-The code is free for academic/research purpose. Please kindly cite our work in your publications if it helps your research.  
+Please cite this paper in your publications if it is helpful for your tasks.
+
+```tex
+@InProceedings{2024crowd,
+    author    = {Ruting Deng, Zhan Li, Yifan Deng, Hang Long, Zhanglu Chen, Zhiqing Kang and Zhichao Qiu},
+    title     = {Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density},
+    booktitle = {International Conference on Intelligent Computing},
+    year      = {2024}
+}
+
+```
 
 ```BibTeX
 # waiting publish

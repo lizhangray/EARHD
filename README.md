@@ -1,6 +1,6 @@
 # EARHD
 
-## Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density 
+## 《Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density》
 > **Abstract**. Image dehazing is a widely used technology for recovering clear images from hazy inputs. However, most dehazing methods are designed to target a specific haze concentration, without considering the varying degrees of image degradation. Removing non-homogeneous haze from real-world images is challenging. To address this issue, this study proposes a dual-cycle framework based on relative haze density, in which inputs are regarded as both hazy images to be recovered by a restoration network (RNet) and clear images to be deteriorated by a degradation network (DNet). Edge attention blocks and multi-order derivative loss are proposed for RNet to enhance the details and colors. Furthermore, two multi-class discriminators are designed to distinguish between relative levels of haze density. Extensive experiments on both real-world and synthetic datasets demonstrate that the proposed method is superior to state-of-the-art approaches for non-homogeneous image dehazing using either supervised or unsupervised learning. This code is available at https://github.com/lizhangray/EARHD.
 
 ## Environment
@@ -88,7 +88,7 @@ python main.py
 Please cite this paper in your publications if it is helpful for your tasks.
 
 ```tex
-@InProceedings{2024crowd,
+@InProceedings{deng2024nonhomogeneous,
     author    = {Ruting Deng, Zhan Li, Yifan Deng, Hang Long, Zhanglu Chen, Zhiqing Kang and Zhichao Qiu},
     title     = {Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density},
     booktitle = {International Conference on Intelligent Computing},
@@ -97,7 +97,3 @@ Please cite this paper in your publications if it is helpful for your tasks.
 
 ```
 
-```BibTeX
-# waiting publish
-
-```

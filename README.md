@@ -95,6 +95,7 @@ Deng, R. et al. (2024). Non-homogeneous Image Dehazing with Edge Attention Based
     title     = {Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density},
     booktitle = {Proceedings of the International Conference on Intelligent Computing (ICIC)},
     year      = {2024},
+    volume    = {14868},
     pages     = {15--28},
     publisher = {Springer},
 }

@@ -86,6 +86,7 @@ python main.py
 ## Citation
 
 Please cite this paper in your publications if it is helpful for your tasks.
+Deng, R. et al. (2024). Non-homogeneous Image Dehazing with Edge Attention Based on Relative Haze Density. In: Huang, DS., Zhang, C., Zhang, Q. (eds) Advanced Intelligent Computing Technology and Applications. ICIC 2024. Lecture Notes in Computer Science, vol 14868. Springer, Singapore. https://doi.org/10.1007/978-981-97-5600-1_2
 
 ```tex
 @InProceedings{deng2024nonhomogeneous,
